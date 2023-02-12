@@ -22,7 +22,7 @@ exports.deleteAll = (req, res) => {
     res.send({ message: "deleteAll handler"});
 };
 
-exports.findAllFavorites = (req, res) => {
+exports.findAllFavorite = (req, res) => {
     res.send({ message: "findAllFavorites handler"});
 };
 
